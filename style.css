@@ -1,0 +1,898 @@
+/*
+Theme Name:Twenty Seven Technologies
+Theme URI:
+Author:Nikhil Tomy
+Author URI:
+Version:1.0
+Description: 27 Technologies Sample Theme
+
+*/
+
+.ts-atom-card-title-h3 {
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+  }
+  
+  .ts-atom-card-body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: normal;
+  }
+  
+  .ts-molc-card {
+    background-color: #fbf7f5;
+    border: none;
+    width: 100%;
+    height: 371px;
+    border-radius: 20px;
+  }
+  
+  .ts-org-cards--ml-9 {
+    margin-left: 9px;
+  }
+  
+  .ts-molc-card__width {
+    height: 392px;
+  }
+  
+  .ts-atom-card-img {
+    width: 79.9879px !important;
+  }
+  
+  .ts-molc-card--mod {
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .ts-atom-card-title-h3 {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 28px;
+      letter-spacing: -0.5px;
+    }
+    .ts-atom-card-body {
+      font-family: "Inter";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22.5px;
+      letter-spacing: normal;
+    }
+    .ts-atom-card-img {
+      width: 109px !important;
+    }
+    .ts-molc-card--mod {
+      height: auto;
+      margin-bottom: 10px;
+      margin-left: -2px;
+      margin-right: -2px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .ts-atom-card-title-h3 {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 28px;
+      letter-spacing: -0.5px;
+    }
+    .ts-atom-card-body {
+      font-family: "Inter";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22.5px;
+      letter-spacing: normal;
+    }
+    .ts-molc-card--mod {
+      height: auto;
+      margin-bottom: 10px;
+      margin-left: -2px;
+      margin-right: -2px;
+    }
+    .ts-atom-card-img {
+      width: 109px !important;
+    }
+    .ts-atom-card-body--lineheight {
+      line-height: 1.5;
+    }
+  }
+  
+  body {
+    font-family: "Inter";
+  }
+  
+  .ts-atom-h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 47.5px;
+    letter-spacing: -2.5px;
+    color: black;
+  }
+  
+  .ts-atom-h1-para {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26.6px;
+    color: #353535;
+  }
+  
+  .ts-atom-h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -1.5px;
+    color: black;
+  }
+  
+  .ts-atom-h2-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.15px;
+    color: #575757;
+  }
+  
+  .ts-atom-about-para {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.15px;
+    color: #575757;
+    padding-right: 5px;
+  }
+  
+  .ts-atom-h1-para--size22 {
+    font-size: 18px !important;
+    color: #969696;
+    letter-spacing: -0.15px;
+  }
+  
+  .ts-atom-section-icons {
+    width: 70px;
+    border-style: none !important;
+    float: left;
+  }
+  
+  .ts-atom-icon-desc {
+    font-size: 15px !important;
+    border-style: none !important;
+    float: left;
+    padding-top: 15px;
+    padding-left: 0;
+  }
+  
+  .ts-molc-img-desc {
+    padding-left: 0px;
+    margin-left: -20px;
+  }
+  
+  .ts-molc-img-desc {
+    margin-top: -30px;
+  }
+  
+  .ts-molc-head-desc__h2 {
+    margin-bottom: 24px;
+  }
+  
+  .ts-molc-quality__h2--mb18 {
+    margin-bottom: 18px;
+  }
+  
+  .ts-molc-head-desc__h2--width303 {
+    width: 303.141px;
+  }
+  
+  .ts-molc-head-desc__h2-para--width303 {
+    width: 303.141px;
+    margin-bottom: 24px;
+  }
+  
+  .ts-organism-CRO--bg-fbf7f5 {
+    background-color: #fbf7f5;
+  }
+  
+  .ts-molc-head-desc-CRO__img-desc {
+    background-color: #fbf7f5;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .ts-atom-h1 {
+      font-size: 63px;
+      line-height: 59.85px;
+      letter-spacing: -2.5px;
+      font-weight: 800;
+    }
+    .ts-atom-h2 {
+      font-size: 53px;
+      line-height: 50.35px;
+      letter-spacing: -2px;
+      font-weight: 800;
+    }
+    .ts-atom-about-para {
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 29px;
+      letter-spacing: -0.15px;
+      color: #575757;
+    }
+    .ts-atom-h1-para {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 33.6px;
+      letter-spacing: normal;
+    }
+    .ts-molc-better__h1 {
+      margin-bottom: 20px;
+    }
+    .ts-molc-quality__h2-para {
+      line-height: 31px;
+    }
+    .ts-molc-head-desc__h2-para--width303 {
+      width: 369.8px;
+      margin-bottom: 24px;
+    }
+    .ts-molc-better {
+      margin-top: -52px !important;
+    }
+    .ts-atom-h1-para--size22 {
+      font-size: 21px !important;
+      color: #969696;
+      letter-spacing: -0.15px;
+      line-height: 31.5px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .ts-atom-h1 {
+      font-size: 72px;
+      line-height: 68.4px;
+      letter-spacing: -2.5px;
+      font-weight: 800;
+      width: 740px;
+    }
+    .ts-atom-h2 {
+      font-size: 62px;
+      line-height: 58.9px;
+      letter-spacing: -2px;
+      font-weight: 800;
+    }
+    .ts-atom-h1-para {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30.8px;
+      letter-spacing: normal;
+    }
+    .ts-atom-h2-para {
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 31.5px;
+      letter-spacing: -0.15px;
+    }
+    .ts-atom-h1-para--about-px {
+      padding-left: 156px !important;
+      padding-right: 161px !important;
+    }
+    .ts-molc-better {
+      margin-top: -22px !important;
+    }
+    .ts-org-quality__head-and-desc {
+      margin-left: 170px;
+    }
+    .ts-molc-head-desc__h2--width303 {
+      width: 540.375px;
+      margin-bottom: 24px;
+    }
+    .ts-molc-head-desc__h2-para--width303 {
+      width: 540.375px;
+      margin-bottom: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .ts-atom-icon-desc {
+      margin-left: 70px;
+      margin-top: -52px !important;
+    }
+    .ts-molc-better {
+      margin-top: -31px !important;
+    }
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .ts-content-container {
+    position: relative;
+    width: 86%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .navbar-toggle {
+    border: none;
+    outline: none;
+  }
+  
+  .ts-atom-logo {
+    cursor: pointer;
+    width: 100px;
+    height: 20.6406px;
+  }
+  
+  .modal-dialog {
+    max-width: 860px !important;
+    position: fixed;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Button used to open the contact form - fixed at the bottom of the page */
+    .open-button {
+      background-color: #555;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 23px;
+      right: 28px;
+      width: 280px;
+    }
+    /* The popup form - hidden by default */
+    .form-popup {
+      display: none;
+      position: relative;
+      bottom: 0;
+      right: 15px;
+      border: 3px solid #f1f1f1;
+      z-index: 9;
+      -webkit-transform: translate(15%, 6%);
+              transform: translate(15%, 6%);
+      width: 77.5%;
+      height: 400 px;
+    }
+    /* Add styles to the form container */
+    .form-container {
+      max-width: 300px;
+      padding: 10px;
+      background-color: white;
+    }
+    .nav-drop-content {
+      padding: 20px 25px !important;
+      border-radius: 12px !important;
+      background-color: #fff !important;
+      -webkit-box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+              box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important;
+      width: -webkit-max-content !important;
+      width: -moz-max-content !important;
+      width: max-content !important;
+    }
+    .ts-org-header {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .ts-molc-header {
+      padding-right: 10px;
+    }
+    .ts-atom-logo {
+      cursor: pointer;
+      width: 130px;
+      height: 20.6406px;
+    }
+    .ts-atom-header-link {
+      font-size: 16.128px;
+      font-weight: 400;
+      line-height: 27px;
+      font-family: "Inter";
+      padding-left: 6.3px !important;
+    }
+    .ts-atom-header-link--me {
+      margin-right: 0px;
+    }
+    .ts-atom-button {
+      font-family: "Inconsolata", monospace;
+      cursor: pointer;
+      height: 50px;
+      width: 110px;
+      font-size: 17px;
+      font-weight: 700;
+      padding: 10px 16px 10px 10px !important;
+    }
+    .ts-atom-logo {
+      cursor: pointer;
+      width: 130 px;
+      height: 26.8438px;
+    }
+    .ts-atom-img--bottom-pad100 {
+      padding-top: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .modal-dialog {
+      max-width: 860px !important;
+      position: fixed;
+      left: 17% !important;
+    }
+    .ts-org-header {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .ts-molc-header {
+      padding-right: 10px;
+    }
+    .ts-atom-logo {
+      cursor: pointer;
+      width: 130px;
+      height: 20.6406px;
+    }
+    .ts-atom-header-link {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
+      font-family: "Inter";
+    }
+    .ts-atom-header-link--me {
+      margin-right: 12.5px;
+    }
+    .ts-atom-img--bottom-pad100 {
+      padding-top: 150px;
+    }
+    .ts-atom-button {
+      font-family: "Inconsolata", monospace;
+      cursor: pointer;
+      height: 50px;
+      width: 119.516px;
+      font-size: 19px;
+      font-weight: 700;
+      padding: 10px 16px 10px 10px !important;
+    }
+    .ts-atom-logo {
+      cursor: pointer;
+      width: 130 px;
+      height: 26.8438px;
+    }
+  }
+  
+  body {
+    background-color: #fcfcfc;
+  }
+  
+  .ts-atom-h2-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.15px;
+  }
+  
+  .ts-atom-h3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  
+  .ts-atom-h3-para {
+    font-size: 13px;
+    line-height: 14.95px;
+  }
+  
+  .ts-atom-h4 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+  
+  .ts-atom-h4-para {
+    font-size: 14px;
+    line-height: 23.1px;
+    letter-spacing: 0.05px;
+  }
+  
+  .ts-atom-agencies {
+    font-size: 17px;
+    line-height: 25.5px;
+  }
+  
+  .ts-atom-h1-para-highlight {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.8px;
+  }
+  
+  .ts-molc-img-desc__section-icons {
+    background-color: #fcfcfc;
+  }
+  
+  .ts-molc-img-desc__icon-desc {
+    background-color: #fcfcfc;
+  }
+  
+  .ts-molc-head-desc-CRO__img-desc {
+    background-color: #fbf7f5;
+  }
+  
+  .ts-atom-h2-para-highlight {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.7px;
+    letter-spacing: -0.15px;
+  }
+  
+  .ts-atom-h2-para-highlight--yellow {
+    border-radius: 6px;
+    background-color: rgba(253, 255, 144, 0.8);
+    font-family: 'Inconsolata';
+  }
+  
+  .ts-atom-h2-para-highlight--blue {
+    border-radius: 6px;
+    background-color: #d0ecf8;
+    font-family: 'Inconsolata';
+  }
+  
+  .ts-atom-agencies__highlight {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 19.55px;
+    border-color: black;
+    border-width: 1px;
+    color: #525151;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: #d0ecf8;
+    font-family: 'Inconsolata';
+  }
+  
+  .ts-org-green {
+    background-image: url("/images/green.PNG");
+    padding-top: 35px;
+  }
+  
+  .ts-org-about-getting {
+    background-image: url("/images/getting.PNG");
+  }
+  
+  .ts-org-green--mt30 {
+    margin-top: 30px;
+  }
+  
+  .ts-atom-h2-img {
+    width: 90%;
+  }
+  
+  .ts-org-bg-yellow {
+    background-color: #fdec53;
+  }
+  
+  .ts-molc-getting {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+  
+  .ts-org-thoughtful--margintop {
+    margin-top: 50px;
+    margin-bottom: 5rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .ts-atom-h3 {
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .ts-atom-h3-para {
+      font-size: 17px;
+      line-height: 19.55px;
+    }
+    .ts-atom-h4 {
+      font-size: 24px;
+      line-height: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .ts-atom-h4-para {
+      font-size: 16px;
+      line-height: 26.4px;
+      letter-spacing: 0.05px;
+    }
+    .ts-atom-h2-para {
+      font-size: 21px;
+      line-height: 32px;
+    }
+    .ts-atom-agencies {
+      font-size: 19px;
+      line-height: 21.85px;
+    }
+    .ts-atom-h1-para-highlight {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 33.6px;
+    }
+    .ts-atom-h2-para-highlight {
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 24.15px;
+      letter-spacing: -0.15px;
+    }
+    .ts-atom-agencies {
+      font-size: 19px;
+      line-height: 21.85px;
+    }
+    .ts-atom-agencies__highlight {
+      font-size: 19px;
+      line-height: 21.85px;
+      color: #3a3a3a !important;
+      font-weight: 600;
+      border-color: #000000;
+      border-width: 1px;
+      border-radius: 6px;
+      background-color: #d0ecf8;
+      font-family: 'Inconsolata';
+    }
+    .ts-molc-head-desc {
+      padding-right: 0px !important;
+    }
+    .ts-atom-h1--pad-left {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
+    .ts-atom-h2-img {
+      width: 100%;
+    }
+    .ts-atom-h2-img--size300 {
+      width: 300%;
+    }
+    .ts-org-thoughtful--margintop {
+      margin-top: 80px;
+      margin-bottom: 5rem;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .ts-atom-h3 {
+      font-size: 36px;
+      line-height: 36px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .ts-atom-h1--pad-left {
+      margin-left: 188px;
+    }
+    .ts-atom-h1-para--agencies-mission-px {
+      padding-left: 140px !important;
+      padding-right: 140px !important;
+    }
+    .ts-atom-h2-para--quality {
+      padding-left: 140px !important;
+      padding-right: 140px !important;
+    }
+    .ts-molc-head-desc__h2-para--paddingright {
+      padding-right: 8rem;
+    }
+    .ts-org-green--mt30 {
+      margin-top: 60px;
+    }
+    .ts-org-thoughtful--margintop {
+      margin-top: 100px;
+      margin-bottom: 5rem;
+    }
+    .ts-atom-h2-img {
+      width: 93%;
+    }
+    .ts-org-card-about__card-row {
+      margin-left: -40px !important;
+    }
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+  }
+  
+  ol {
+    padding-left: 0px;
+  }
+  
+  ul {
+    padding-left: 0px;
+  }
+  
+  .ts-atom-p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .ts-atom-p18 {
+    font-size: 18px;
+  }
+  
+  .ts-card-container {
+    padding-left: 26px;
+  }
+  
+  .ts-molc-card {
+    padding: 0;
+  }
+  
+  .ts-atom-card__img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: -16px;
+  }
+  
+  .ts-org-footer {
+    padding: 0;
+    background-color: black;
+  }
+  
+  .ts-molc-footercard {
+    padding: 0;
+  }
+  
+  .ts-molc-footercard--bg {
+    border: none;
+    background-color: black;
+    width: 170px;
+    height: 220px;
+  }
+  
+  .ts-molc-footercard__img {
+    width: 80px;
+    height: 80px;
+    margin-left: 2px;
+  }
+  
+  .ts-molc-footercard__h4 {
+    font-size: 22px;
+  }
+  
+  .ts-molc-footercard__p {
+    font-size: 17px;
+    color: #CACACA;
+  }
+  
+  .ts-footer__hr {
+    width: 98%;
+    color: white;
+    height: 1.5px !important;
+  }
+  
+  .ts-footer__logo-img {
+    margin-top: 37px;
+    width: 124px;
+    height: 24px;
+  }
+  
+  .ts-footer__p-demo {
+    width: 260px;
+    letter-spacing: normal !important;
+    margin-top: 32px;
+  }
+  
+  .ts-footer__btn-text {
+    font-family: "Inconsolata", monospace;
+    font-size: 16px !important;
+    width: 106px;
+    height: 46px;
+  }
+  
+  .ts-footer__list {
+    padding: 0px;
+  }
+  
+  .ts-footer__list-heading {
+    font-size: 17px !important;
+    letter-spacing: normal !important;
+  }
+  
+  .ts-footer__list-items {
+    list-style-type: none;
+    color: #CACACA;
+  }
+  
+  .ts-footer__list-social {
+    padding: 0px;
+  }
+  
+  .ts-footer__list-social-items {
+    list-style-type: none;
+  }
+  
+  .ts-footer__list-social-img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .ts-footer__credits {
+    font-size: 13px !important;
+    color: #505050;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .ts-card-container {
+      padding-left: 47px;
+      padding-right: 81px;
+    }
+    .ts-molc-card {
+      padding: 0px;
+    }
+    .ts-cardt1__p {
+      line-height: 1.25;
+      margin-bottom: 10px;
+    }
+    .ts-atom-card__img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: -16px;
+    }
+    .ts-footer-banner__h2 {
+      padding-top: 40px;
+      margin-bottom: 20px;
+    }
+    .ts-footer-banner__p {
+      font-size: 22px;
+      width: 500px;
+      letter-spacing: -0.15px;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+    .ts-molc-footercard--bg {
+      margin-top: 40px;
+      margin-left: 23px;
+    }
+    .ts-molc-footercard__img {
+      width: 110px;
+      height: 110px;
+      margin-left: 2px;
+      margin-top: 2px;
+    }
+    .ts-footer__credits {
+      padding-bottom: 40px;
+      padding-right: 100px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .ts-card-container {
+      padding-left: 90px;
+      padding-right: 90px;
+    }
+    .ts-molc-card {
+      padding: 0px;
+    }
+    .ts-cardt1__p {
+      line-height: 1.25;
+      margin-bottom: 10px;
+    }
+    .ts-atom-card__img {
+      width: 110px;
+      height: 100px;
+      margin-bottom: -16px;
+    }
+    .ts-footer__list-social {
+      margin-right: 10px;
+    }
+    .ts-footer__list-social-img {
+      width: 25px;
+      height: 25px;
+    }
+    .ts-molc-footercard--bg {
+      margin-top: 40px;
+      margin-left: 23px;
+      width: 260px;
+    }
+    .ts-footer__credits {
+      font-size: 14px !important;
+      color: #505050;
+    }
+  }
+  /*# sourceMappingURL=styles.css.map */

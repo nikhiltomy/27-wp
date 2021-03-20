@@ -1,0 +1,152 @@
+
+$medium: 768px
+$large: 992px
+$font_secondary: 'Inconsolata', monospace
+$colors: ("para-color":rgb(87, 87, 87),
+"card-bg": rgb(251, 247, 245), 
+"card-para-color": rgb(119, 119, 119), 
+"footer-bg":black, 
+"button-bg": rgb(82, 160, 157),
+"primary":rgb(252, 252, 252), 
+"para-highlight": #d0ecf8)
+
+@function color($color_name)
+    @return map-get($colors,$color_name)
+body,html
+    height: 100%
+    color(primary)
+.ts-content-container
+    position: relative
+    width: 86%
+    max-width: 1200px
+    margin-right: auto
+    margin-left: auto
+.navbar-toggle
+    border: none
+    outline: none
+
+.ts-atom-logo
+    cursor: pointer
+    width: 100px
+    height: 20.6406px
+.modal-dialog
+    max-width: 860px !important
+    position: fixed
+@media screen and (min-width:$medium)
+
+    /* Button used to open the contact form - fixed at the bottom of the page */
+    .open-button
+        background-color: #555
+        color: white
+        padding: 16px 20px
+        border: none
+        cursor: pointer
+        opacity: 0.8
+        position: fixed
+        bottom: 23px
+        right: 28px
+        width: 280px
+
+    /* The popup form - hidden by default */
+    .form-popup
+        display: none
+        position: relative
+        bottom: 0
+        right: 15px
+        border: 3px solid #f1f1f1
+        z-index: 9
+        transform: translate(15%, 6%)
+        width: 77.5%
+        height: 400 px
+    /* Add styles to the form container */
+    .form-container
+        max-width: 300px
+        padding: 10px
+        background-color: white
+
+    .nav-drop-content
+        padding: 20px 25px !important
+        border-radius: 12px !important
+        background-color: #fff !important
+        box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.15) !important
+        width: max-content !important
+    .ts-org-header
+        padding-top: 20px
+        padding-bottom: 20px
+    .ts-molc-header
+        padding-right: 10px
+        .ts-molc-header__link
+
+    .ts-atom-logo
+        cursor: pointer
+        width: 130px
+        height: 20.6406px
+    .ts-atom-header-link
+        font-size: 16.128px
+        font-weight: 400
+        line-height: 27px
+        font-family: "Inter"
+        padding-left: 6.3px !important
+    .ts-atom-header-link--me
+        margin-right: 0px
+    .ts-molc-header-btn
+
+    .ts-atom-button
+        font-family: $font_secondary
+        cursor: pointer
+        height: 50px
+        width: 110px
+        font-size: 17px
+        font-weight: 700
+        padding: 10px 16px 10px 10px !important
+
+    .ts-atom-logo
+        cursor: pointer
+        width: 130 px
+        height: 26.8438px
+    .ts-atom-img--bottom-pad100
+        padding-top: 150px
+
+@media screen and (min-width:$large)
+
+    .modal-dialog
+        max-width: 860px !important
+        position: fixed
+        left: 17% !important
+    .ts-org-header
+        padding-top: 20px
+        padding-bottom: 20px
+    .ts-molc-header
+        padding-right: 10px
+    .ts-molc-header__link
+
+    .ts-atom-logo
+        cursor: pointer
+        width: 130px
+        height: 20.6406px
+    .ts-atom-header-link
+        font-size: 18px
+        font-weight: 400
+        line-height: 20px
+        font-family: "Inter"
+    .ts-atom-header-link--me
+        margin-right: 12.5px
+    .ts-molc-header-btn
+
+    .ts-atom-img--bottom-pad100
+        padding-top: 150px
+        
+
+    .ts-atom-button
+        font-family: $font_secondary
+        cursor: pointer
+        height: 50px
+        width: 119.516px
+        font-size: 19px
+        font-weight: 700
+        padding: 10px 16px 10px 10px !important
+
+    .ts-atom-logo
+        cursor: pointer
+        width: 130 px
+        height: 26.8438px
